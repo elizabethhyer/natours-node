@@ -13,6 +13,7 @@ mongoose
     useFindAndModify: false,
   })
   .then(() => {
+    // eslint-disable-next-line no-console
     console.log('db connection successful');
   });
 
